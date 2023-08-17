@@ -12,6 +12,7 @@ const Portfolio = () => {
       title: "Solo JQuery Clone",
       src: jqueryPage,
       link: "https://github.com/adnane84/Portfolio-project",
+      website: "https://adnaneproject.netlify.app/",
     },
     {
       id: 2,
@@ -58,7 +59,7 @@ const Portfolio = () => {
           <p className="py-6 m-10 text-gray-300">Explore my creative endeavors firsthand!</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, title, link }) => (
+          {portfolios.map(({ id, src, title, link, website }) => (
             <div key={id} className="shadow-md shadow-gray-600">
               <img
                 src={src}
@@ -67,7 +68,7 @@ const Portfolio = () => {
               />
               <h3 className="text-center mt-6 text-blue-300 font-bold">{title}</h3>
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(website, '_blank')}>
                   Demo
                 </button>
                 <button  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={() => window.open(link, '_blank')}>
