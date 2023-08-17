@@ -31,6 +31,7 @@ const Portfolio = () => {
       title: "Tips Calculator",
       src: tipsCalc,
       link: "https://github.com/adnane84/Tip-Calculator",
+      website: "https://adnane-tips-calculator.netlify.app/",
     },
     {
       id: 5,
