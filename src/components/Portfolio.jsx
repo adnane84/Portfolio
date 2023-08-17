@@ -25,6 +25,7 @@ const Portfolio = () => {
       title: "Pokemon Cards",
       src: pokemonCards,
       link: "https://github.com/adnane84/Pokemon-cards-clone",
+      website: "https://adn-pokemon-cards.netlify.app/",
     },
     {
       id: 4,
