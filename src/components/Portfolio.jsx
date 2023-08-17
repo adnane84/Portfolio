@@ -37,7 +37,8 @@ const Portfolio = () => {
       id: 5,
       title: "Weather App",
       src: weatherApp,
-      link: "https://github.com/adnane84/Weather-app"
+      link: "https://github.com/adnane84/Weather-app",
+       website: "https://adn-weather-app.netlify.app/",
     },
     {
       id: 6,
