@@ -19,6 +19,7 @@ const Portfolio = () => {
       title: "Movies Land",
       src: moviesLand,
       link: "https://github.com/adnane84/JS-website-with-API",
+      website: "https://adn-movies-app.netlify.app/",
     },
     {
       id: 3,
