@@ -46,7 +46,8 @@ const Portfolio = () => {
       id: 6,
       title: "Web Dev Tools",
       src: webDevTools,
-      link: "https://github.com/adnane84/web-development-tools",
+      link: "https://github.com/adnane84/Development-guide-project",
+      website: "https://developersroadguide.netlify.app/",
     },
   ];
 
