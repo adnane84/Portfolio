@@ -22,7 +22,7 @@ const Home = () => {
             I&apos;m a Front End web developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I possess a solid background with 2 years of hands-on experience in
+            I possess a solid background of hands-on experience in
             software development and design. My current focus lies in crafting
             web applications, leveraging technologies such as Javascript, React,
             Tailwind, and Github, which I thoroughly enjoy.
