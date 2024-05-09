@@ -1,4 +1,4 @@
-/*import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -39,7 +39,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Adnane_Abid_Resume.pdf",
+      href: "",
       style: "rounded-br-md",
       download: true,
     },
@@ -73,4 +73,4 @@ const SocialLinks = () => {
   );
 };
 
-export default SocialLinks;*/
+export default SocialLinks;
